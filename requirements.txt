@@ -6,7 +6,7 @@ dash-table
 tweepy
 vaderSentiment
 unidecode
-plotly
+plotly==3.10.0
 pandas
 regex
 python-memcached
