@@ -186,10 +186,10 @@ def update_output_div(input_value):
     t12 = time.time()
     #print('trending topics app callback e girdim:  ', t1)
 
-    consumer_key = ENV['CONSUMER_KEY']
-    consumer_secret = ENV['CONSUMER_SECRET']
-    access_token = ENV['API_KEY']
-    access_token_secret = ENV['API_SECRET']
+    consumer_key = os.environ['CONSUMER_KEY']
+    consumer_secret = os.environ['CONSUMER_SECRET']
+    access_token = os.environ['API_KEY']
+    access_token_secret = os.environ['API_SECRET']
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
