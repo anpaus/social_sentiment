@@ -15,5 +15,6 @@ numpy
 Werkzeug
 textblob
 gunicorn
+wordcloud
 
 
