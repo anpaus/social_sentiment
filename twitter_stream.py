@@ -26,10 +26,10 @@ analyzer = SentimentIntensityAnalyzer()
 
 #consumer key, consumer secret, access token, access secret.
 # https://apps.twitter.com/ to setup
-ckey="XXXXXXXXXXXXXX"
-csecret="XXXXXXXXXXXXXX"
-atoken="XXXXXXXXXXXXXX"
-asecret="XXXXXXXXXXXXXX"
+ckey = ENV['CONSUMER_KEY']
+csecret = ENV['CONSUMER_SECRET']
+atoken = ENV['API_KEY']
+asecret = ENV['API_SECRET']
 
 # isolation lever disables automatic transactions,
 # we are disabling thread check as we are creating connection here, but we'll be inserting from a separate thread (no need for serialization)
