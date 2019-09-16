@@ -14,5 +14,6 @@ h5py
 numpy
 Werkzeug
 textblob
+gunicorn
 
 
